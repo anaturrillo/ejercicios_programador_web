@@ -150,7 +150,7 @@ var frase = 'Esto no es una pipa';
 !('Hola' === 'Hola')// Devuelve false, porque el estrictamente igual devuelve true y luego la negación lo convierte en false
 ```
 
-## AND
+### AND
 
 El operador AND se declara utilizando dos veces el símbolo ampersand `&&` y compara dos expresiones que puedan ser evaluadas como `true` o `false`. El valor que retorna es de uno de los dos términos, según la siguiente tabla:
 
@@ -175,7 +175,7 @@ El operador AND se declara utilizando dos veces el símbolo ampersand `&&` y com
 ```
 
 
-## OR
+### OR
 
 El operador OR se declara utilizando dos veces el símbolo barra vertical `||` y compara dos expresiones que puedan ser evaluadas como `true` o `false`. El valor que retorna es de uno de los dos términos, según la siguiente tabla:
 
