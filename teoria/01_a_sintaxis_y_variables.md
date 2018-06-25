@@ -360,7 +360,7 @@ var text = 'Hola'
 
 text-- // Como el string 'Hola' no se puede convertir a number esto devuelve NaN y se lo asigna a la variable text
 
-**Nota:** Mozilla Developer Network (MDN)'s "Expressions and Operators" (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators).
+**Nota:** Mozilla Developer Network (MDN) "Expressions and Operators" (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators).
 
 
 ### Comments
