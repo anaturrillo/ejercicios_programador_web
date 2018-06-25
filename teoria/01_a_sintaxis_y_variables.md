@@ -180,7 +180,7 @@ array['hola'] // undefined
 
 > Ej: La bandeja de entrada del e-mail contiene objetos, en este caso e-mails, ordenados cronológicamente.
 
-## Objeto - `object`
+## Object
 
 Un objeto o object es un contenedor que nos permite agrupar variables juntas bajo un mismo concepto a través de pares clave/valor. Las claves se llaman *keys* o *propiedades* del objeto. Los valores que pueden contener son todos los permitidos en JavaScript.
 
