@@ -182,7 +182,6 @@ console.log('a: ', a);
 ```
 
 ```js
-// Closure
 var outer = function() {
   var a = "Soy una variable local!"
   var inner = function() {
@@ -193,3 +192,4 @@ var outer = function() {
 outer();
 fnc();
 ```
+
