@@ -2,20 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45a722a9-22f7-4aa0-9143-012ce2996443" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clases/01/ejercicios/desafio/Enunciado.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clases/01/ejercicios/desafio/mockup.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clases/01/ejercicios/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clases/01/ejercicios/js/scripts.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teoria/01_sintaxis_y_variables.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teoria/02_control_de_flujo.md" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/clases/01/docs/ejercicio01.md" afterPath="$PROJECT_DIR$/ejercicios/loops_ejercicio.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/clases/01/docs/ejercicio02.md" afterPath="$PROJECT_DIR$/ejercicios/prompt.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/clases/01/docs/ejercicio03.md" afterPath="$PROJECT_DIR$/ejercicios/if_else.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/clases/01/docs/ejercicio04.md" afterPath="$PROJECT_DIR$/ejercicios/do_while.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/clases/01/docs/readme.md" afterPath="$PROJECT_DIR$/docs.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/clases/02/docs/ejemplos.md" afterPath="$PROJECT_DIR$/ejercicios/scope.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/clases/02/docs/ejercicios_funciones.md" afterPath="$PROJECT_DIR$/ejercicios/funciones.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/clases/02/ejercicios/desafio/enunciado.md" afterPath="$PROJECT_DIR$/ejercicios/desafio_01/busqueda_array/enunciado.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,7 +17,18 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -38,6 +37,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/ejercicios/02/ejercicios/busqueda_array/js/scripts.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -197,17 +197,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1542899611723</updated>
-      <workItem from="1542899613059" duration="1905000" />
+      <workItem from="1542899613059" duration="2076000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1905000" />
+    <option name="totallyTimeSpent" value="2076000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1975" y="-4" width="1225" height="724" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24958402" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24958402" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -455,6 +456,14 @@
             </folding>
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
