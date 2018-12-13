@@ -156,27 +156,15 @@ console.log('a: ', a);
 ```
 
 ```js
-var a = 1; 
-
-function b() { 
-  var a = 10;
-} 
-
-
-b(); 
-console.log('a: ', a);
-```
-
-```js
 var g = 'Soy una variable global!'
 
 var outer = function() {
   var a = "Soy una variable local!"
   var inner = function() {
-    console.log(a)
+    console.log('a - ', a)
   }
   
-  console.log('g', g)
+  console.log('g - ', g)
   window.fnc = inner
 }
 
