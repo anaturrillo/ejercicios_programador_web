@@ -49,7 +49,7 @@ second()
 
 ```js
 function first() {
-    a = 3; // lo mismo que a = 3
+    a = 3;x
 }
 
 function second() {
