@@ -28,7 +28,7 @@ logName();
     if(true) {
         var a = 5;
     }
-    alert(a);
+    console.log(a);
 })()
 ```
 
@@ -40,7 +40,7 @@ function first() {
 }
 
 function second() {
-    alert(a);
+    console.log(a);
 }
 
 first() 
@@ -53,7 +53,7 @@ function first() {
 }
 
 function second() {
-    alert(a);
+    console.log(a);
 }
 
 first() 
@@ -64,7 +64,7 @@ second()
 var a = 5;
 (function bli() {
     var a = 7;
-    alert(a);
+    console.log(a);
 })()
 ```
 
@@ -78,8 +78,6 @@ function greet() {
     }
 }
 
-greet();
-
 greetLetter = greet();
 
 greetLetter();
@@ -91,20 +89,20 @@ function test() {
     var a = 7;
     function again() {
         var a = 8;
-        alert(a);  // Primero
+        console.log(a); 
     }
     again();
-    alert(a);  // Segundo
+    console.log(a); 
 }
 test();
-​alert(a);​  // Tercero
+console.log(a);​  
 ```
 
 ```js
 function getFunc() {
     var a = 7;
     return function(b) {
-        alert(a+b);
+        console.log(a+b);
     }
 }
 var f = getFunc();
@@ -123,25 +121,6 @@ function test() {
 }
 
 test();
-```
-
-```js
-var a = 1; 
-
-function someFunction(number) {
-  function otherFunction(input) {
-    return a;
-  }
-  
-  a = 5;
-  
-  return otherFunction;
-}
-
-var firstResult = someFunction(9);
-var result = firstResult(2);
-
-console.log(a)
 ```
 
 ```js
@@ -168,12 +147,7 @@ console.log('test(): ', test());
 var a = 1; 
 
 function b() { 
-	console.log()
-	    a = 10; 
-	    return; 
-	    function a() {
-        
-    } 
+  a = 10;
 } 
 
 
@@ -182,14 +156,32 @@ console.log('a: ', a);
 ```
 
 ```js
+var a = 1; 
+
+function b() { 
+  var a = 10;
+} 
+
+
+b(); 
+console.log('a: ', a);
+```
+
+```js
+var g = 'Soy una variable global!'
+
 var outer = function() {
   var a = "Soy una variable local!"
   var inner = function() {
-    alert(a)
+    console.log(a)
   }
+  
+  console.log('g', g)
   window.fnc = inner
 }
+
 outer();
 fnc();
+console.log('a', a)
 ```
 
