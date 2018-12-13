@@ -49,7 +49,7 @@ second()
 
 ```js
 function first() {
-    window.a = 3; // lo mismo que a = 3
+    a = 3; // lo mismo que a = 3
 }
 
 function second() {
